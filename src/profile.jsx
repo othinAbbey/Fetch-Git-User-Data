@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faCalendar } from "@fortawesome/free-solid-svg-icons";
-import Header from './header.jsx';
+import Header from './Header.jsx';
 import './Header.css'; 
 import './Profile.css';
 

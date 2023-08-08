@@ -9,7 +9,7 @@
 }
 
 .user-avatar {
-  border: 8px solid #0070f3;
+  border: 8px solid #00f324;
   border-radius: 50%;
   width: 28%;
   height: auto;
@@ -18,13 +18,13 @@
 .username {
   font-size: 24px;
   font-weight: 500;
-  color: #0070f3;
+  color:red;
 }
 
 .profile-name {
   font-size: 40px;
   font-weight: 500;
-  color: #f6f8fa;
+  color:lightgreen;
 }
 .user-information {
   display: flex;
@@ -49,8 +49,8 @@
   align-items: center;
   gap: 10px;
   padding: 15px;
-  color: #f6f8fa;
-  background-color: #24292e;
+  color: #529fec;
+  background-color: #3a3218;
   width: 160px;
   border-radius: 5px;
 }
@@ -75,6 +75,6 @@
 }
 
 .error h1 {
-  color: #f6f8fa;
+  color: #70afef;
   padding-bottom: 30px;
 }

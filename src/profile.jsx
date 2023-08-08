@@ -38,9 +38,10 @@ const Profile = () => {
             width="100"
             height="100"
           />
-          <h2 className="profile-name">{userDetails.name}</h2>
+          <h2 className="profile-name">{userDetails.name}</h2>          
           <h2 ><a className="username" href={userDetails.html_url} target="_blank" rel="noopener noreferrer" >@{userDetails.login}</a></h2>
               <div className='user-information'>
+                
             <h3><FontAwesomeIcon icon={faLocationDot} />  {userDetails.location}</h3>
 
             {userDetails.created_at && (
@@ -54,6 +55,7 @@ const Profile = () => {
               })}
             </h3>
           )}
+          
               </div>
 
               <div className="cards">
@@ -72,6 +74,8 @@ const Profile = () => {
                   <h3>{userDetails.public_repos}</h3>
                   <p>Public repos</p>
                 </div>
+
+                
 
               </div>
 

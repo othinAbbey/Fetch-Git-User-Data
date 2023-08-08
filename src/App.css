@@ -11,7 +11,7 @@
 
 .octo-cat {
   font-size: 5rem;
-  color: #0070f3;
+  color: #1b1e20;
 }
 
 form {
@@ -23,13 +23,13 @@ form {
 label {
   font-size: 2.6rem;
   font-weight: 500;
-  color: #f6f8fa;
+  color:lightseagreen;
 }
 
 input {
   font-size: 28px;
   font-weight: 400;
-  color: #79b8ff;
+  color: #4993e7;
   text-align: center;
   padding: 15px;
   width: 100%;

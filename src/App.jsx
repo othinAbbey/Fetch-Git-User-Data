@@ -29,7 +29,7 @@ function App() {
      <FontAwesomeIcon icon={faGithub} className='octo-cat'/>
   
         <form onSubmit={searchUser}>
-      <label htmlFor="username">Find Github User Profile</label>
+      <label htmlFor="username">Search for Github User Data</label>
         <input type="text" name="username"  onChange={handleChange}
           value={username}/>
       </form>

@@ -34,6 +34,9 @@ function App() {
           value={username}/>
       </form>
     </div>
+      <footer>
+        <p>&copy: abbey 2023</p>
+      </footer>
     </div>
     
   )
